@@ -1,7 +1,7 @@
 /* shared common  */
 body {
     font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
+    
 }
 
 .primary-btn {
@@ -39,7 +39,8 @@ body {
 }
 
 .banner-img img {
-    height: 600px;
+    margin-top: 50px;
+    height: 550px;
 }
 
 .header {
@@ -167,4 +168,24 @@ font-weight: 800;
 }
 .off-span{
     color: #E55473;
+}
+/* social site */
+.insta{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    color: #272727;
+text-align: center;
+
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.contacct-section-pic{
+    padding: 0px 240px;
+}
+.common-pic{
+    width: 230px;
+    height: 300px;
+   margin-left: 15px;
 }
