@@ -233,6 +233,21 @@ body {
     width: 450px;
     height: 55px;
 }
+/* sign up section */
+.sign-up-container{
+    height: 800px;
+    width: 1000px;
+    background-image: url('../Flower Asset/hand-drawn-floral-background_23-2149011038.avif');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sign-up-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 
 /* footer section */
 .footer-container {
