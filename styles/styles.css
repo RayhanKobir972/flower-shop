@@ -47,7 +47,7 @@ body {
     height: 600px;
     background: rgba(229, 84, 115, 0.10);
     width: auto;
-    padding: 0px 240px;
+    padding: 0px 200px;
     background-repeat: no-repeat;
     background-position: bottom right;
 }
@@ -182,10 +182,22 @@ font-weight: 800;
 line-height: normal;
 }
 .contacct-section-pic{
-    padding: 0px 240px;
+    padding: 0px 200px;
 }
 .common-pic{
     width: 230px;
     height: 300px;
-   margin-left: 15px;
+   margin-right: 42px;
+}
+/* subscribe section */
+.subscribe-container{
+
+    height: 449px;
+    margin: 130px 200px;
+    /* margin-right: 130px;
+    margin-left: 130px; */
+    
+    background-image: url('../Flower Asset/Rectangle\ 9.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
