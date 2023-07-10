@@ -85,10 +85,12 @@ body {
     justify-content: space-between;
     margin: 0px 240px;
 }
-.our-featured div{
+
+.our-featured div {
     width: 700px;
 }
-.our-featured{
+
+.our-featured {
     display: flex;
     justify-content: center;
 }
@@ -233,19 +235,36 @@ body {
     width: 450px;
     height: 55px;
 }
+
 /* sign up section */
-.sign-up-container{
-    height: 800px;
-    width: 1000px;
+.sign-up-container {
+    height: 600px;
+    width: 800px;
     background-image: url('../Flower Asset/hand-drawn-floral-background_23-2149011038.avif');
     background-repeat: no-repeat;
     background-size: contain;
+
 }
-.sign-up-info{
+div.sign-up-container{
+    width: 400px;
+    margin: 100px auto 0px auto;
+}
+div.register{}
+
+.sign-up-info {
+    margin: 100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    border: none;
+}
+
+.info {
+    margin-top: 100px;
 }
 
 
