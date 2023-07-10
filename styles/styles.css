@@ -1,7 +1,7 @@
 /* shared common  */
 body {
     font-family: 'Lato', sans-serif;
-    
+
 }
 
 .primary-btn {
@@ -85,6 +85,13 @@ body {
     justify-content: space-between;
     margin: 0px 240px;
 }
+.our-featured div{
+    width: 700px;
+}
+.our-featured{
+    display: flex;
+    justify-content: center;
+}
 
 .image-one {
     width: 300px;
@@ -155,10 +162,11 @@ body {
     text-align: center;
     margin-right: 130px;
 }
-.offer-heading{
+
+.offer-heading {
     color: #272727;
-font-size: 35px;
-font-weight: 800;
+    font-size: 35px;
+    font-weight: 800;
 }
 
 .offer-image {
@@ -166,38 +174,100 @@ font-weight: 800;
     height: 400px;
     margin-left: 50px;
 }
-.off-span{
+
+.off-span {
     color: #E55473;
 }
+
 /* social site */
-.insta{
-    margin-top: 120px;
+.insta {
+    margin-top: 100px;
     margin-bottom: 20px;
     color: #272727;
-text-align: center;
-
-font-size: 40px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
-.contacct-section-pic{
+
+.contacct-section-pic {
     padding: 0px 200px;
 }
-.common-pic{
+
+.common-pic {
     width: 230px;
     height: 300px;
-   margin-right: 42px;
+    margin-right: 42px;
 }
+
 /* subscribe section */
-.subscribe-container{
+.subscribe-container {
 
     height: 449px;
-    margin: 130px 200px;
+    margin-top: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
     /* margin-right: 130px;
     margin-left: 130px; */
-    
+
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     background-size: contain;
     background-repeat: no-repeat;
+    padding-top: 50px;
+}
+
+.subscribe {
+    text-align: center;
+}
+
+.subscribe-header {
+    /* margin-top: 170px; */
+    color: #272727;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.input-field {
+    /* margin-top: 50px; */
+    width: 450px;
+    height: 55px;
+}
+
+/* footer section */
+.footer-container {
+    text-align: center;
+    width: auto;
+    height: 240px;
+    background: #111010;
+    padding: 80px 200px;
+}
+
+.footer-header {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    width: 500px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 290px;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.shop {
+    color: #fff;
 }
