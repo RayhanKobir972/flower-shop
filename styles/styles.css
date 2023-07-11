@@ -52,11 +52,6 @@ body {
     background-position: bottom right;
 }
 
-.banner .banner-image {
-    /* width: 635px;
-    height: 800px; */
-}
-
 .banner-title {
     margin: 0px;
     color: #272727;
@@ -183,7 +178,7 @@ body {
 
 /* social site */
 .insta {
-    margin-top: 100px;
+    margin-top: 70px;
     margin-bottom: 20px;
     color: #272727;
     text-align: center;
@@ -207,12 +202,9 @@ body {
 .subscribe-container {
 
     height: 449px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 200px;
     margin-right: 200px;
-    /* margin-right: 130px;
-    margin-left: 130px; */
-
     background-image: url('../Flower Asset/Rectangle\ 9.png');
     background-size: contain;
     background-repeat: no-repeat;
@@ -224,49 +216,45 @@ body {
 }
 
 .subscribe-header {
-    /* margin-top: 170px; */
     color: #272727;
     font-size: 35px;
     font-weight: 800;
 }
 
 .input-field {
-    /* margin-top: 50px; */
     width: 450px;
     height: 55px;
 }
-
+/* Bonus section */
 /* sign up section */
 .sign-up-container {
     height: 600px;
     width: 800px;
-    background-image: url('../Flower Asset/hand-drawn-floral-background_23-2149011038.avif');
+    background-image: url('../Flower Asset/realistic-spring-background-with-copy-space-frame_23-2148430917.jpg');
     background-repeat: no-repeat;
     background-size: contain;
+    margin: 0px 350px;
 
 }
-div.sign-up-container{
-    width: 400px;
-    margin: 100px auto 0px auto;
-}
-div.register{}
 
-.sign-up-info {
-    margin: 100px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    border: 2px solid black;
-    width: 600px;
-    height: 600px;
+.registration-form{
+    padding: 60px 200px ;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+label{
+    font-size: 20px;
+    color: #272727;
+    font-family: lato;
+    font-weight: bold;
+}
+.input{
+    height: 30px;
+    width: 190px;
     border: none;
+    background-color: transparent;
 }
-
-.info {
-    margin-top: 100px;
-}
-
 
 /* footer section */
 .footer-container {
